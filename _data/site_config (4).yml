@@ -106,15 +106,17 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: St Helen's data for Sustainable Development Goal indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+  title: Welcome to St Helen's SDG Data Platform
+  description: This is an open data platform for St Helen's to help in achieving the
+    Sustainable Development Goals (SDGs). This platform is constantly developing
+    with the support of the local community in the city of Liverpool.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:

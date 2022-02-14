@@ -42,7 +42,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        REPOSITORY_NAME: st-helens-production-site/sdg-st-helens.github.io
+        REPOSITORY_NAME: st-helens-production-site/st-helens-production-site.github.io
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: master
         FOLDER: _site

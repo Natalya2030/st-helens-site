@@ -89,22 +89,22 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+  - title: Relevant websites and publications
+    content: >- 
+      [2030hub](https://the2030hub.com/)
+  - title: Useful resources
+    content: >
+      [About Local2030](https://www.local2030.org/about-us.php)
+
+
+      [The Global Goals](https://www.globalgoals.org/)
+
+
+      [Implementing the Sustainable Development
+      Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
+
+
+      [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
 frontpage_goals_grid:
   title: St Helen's data for Sustainable Development Goal indicators
   description: >-

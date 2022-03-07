@@ -92,7 +92,9 @@ frontpage_cards:
   - title: Relevant websites and publications
     content: >- 
       [2030hub](https://the2030hub.com/)
+      
       Together To Zero
+      
       [St Helens Climate Change 
       Commission](https://www.sthelens.gov.uk/news/2021/march/24/climate-change-commission-to-support-greener-borough/#:~:text=At%20a%20full%20council%20meeting,is%20having%20on%20the%20borough.)
   - title: Useful resources
@@ -110,7 +112,7 @@ frontpage_cards:
       [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
   - title: Affliated Data Platforms
     content: >- 
-      [Liverpool SDG Data Platform](https://the2030hub.com/)
+      [Liverpool SDG Data Platform](https://liverpool-sdg-data.github.io/)
 frontpage_goals_grid:
   title: St Helens data for Sustainable Development Goal indicators 
   description: >-

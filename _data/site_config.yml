@@ -213,7 +213,7 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-   - path: /jargon_buster
+   - path: /jargon-buster
     translation_key: Jargon Buster
     dropdown: []  
 metadata_edit_url: metadata

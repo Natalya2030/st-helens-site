@@ -1,7 +1,7 @@
 ---
 title: Jargon Buster 
 language: en 
-permalink: jargon-buster/
+permalink: /jargon-buster/
 layout: page
 --- 
 

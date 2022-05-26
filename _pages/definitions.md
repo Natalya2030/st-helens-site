@@ -143,3 +143,4 @@ Standard unit or system of units by means of which a quantity is accounted for a
 
 ## Variable
 A characteristic, number or quantity that is capable of taking different values in different situations, for example, increasing or decreasing over time.
+

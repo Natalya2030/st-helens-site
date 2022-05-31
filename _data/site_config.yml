@@ -23,12 +23,12 @@ breadcrumbs:
       label: menu.updates
 contrast_type: default
 cookie_consent_form:
-  enabled: false
+  enabled: true
 country:
-  name: Australia
-  adjective: Australian
+  name: St Helens
+  adjective: St Helens
 create_goals:
-  layout: goal-by-target-vertical
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
@@ -67,21 +67,21 @@ disclaimer:
   phase: ''
   message: ''
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: info@the2030hub.com
+  suggestions: info@the2030hub.com
+  functional: info@the2030hub.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  - path: 'https://the2030hub.com/contact/'
+    translation_key: Contact 2030hub
+  - path: 'https://twitter.com/2030hub'
+    translation_key: Twitter
+  - path: 'http://facebook.com/2030hub'
+    translation_key: Facebook
   - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+    translation_key: Cookies
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -102,36 +102,39 @@ frontpage_cards:
   - title: Useful resources
     content: >
       [About Local2030](https://www.local2030.org/about-us.php)
-
-
+      
+      
       [The Global Goals](https://www.globalgoals.org/)
-
-
+      
+      
       [Implementing the Sustainable Development
       Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
-
-
+      
+      
       [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
   - title: Affliated Data Platforms
     content: >- 
       [Liverpool SDG Data Platform](https://liverpool-sdg-data.github.io/)
 frontpage_goals_grid:
-  title: St Helens data for Sustainable Development Goal indicators 
+  title: St Helens data for Sustainable Development Goal indicators
   description: >-
-    Click on each goal for our Sustainable Development Goal global indicator
-    data.
+    Click on each goal for St Helens statistics for Sustainable Development Goal
+    global indicators.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
-   title: Welcome to St Helens SDG Data Platform.
-   description: This is an open data platform for St Helens to help in achieving the
+  title: Welcome to the St Helens SDG Data Platform
+  description: >-
+    This is an open data platform for St Helens to help in achieving the
     Sustainable Development Goals (SDGs). This platform is constantly developing
-    with the support of the local community in St Helens.
+    with the support of the local community in the city of St Helens.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
-  description: goal.description
+  description: >-
+    Click on each goal to see St Helens statistics for Sustainable Development
+    Goal global indicators.
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
@@ -147,25 +150,30 @@ hide_single_unit: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/indicator-config'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/indicator-config'
   translation_link: ''
 indicator_data_form:
   enabled: true
-  repository_link: '/tree/develop/data'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/data'
 indicator_metadata_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/meta'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/meta'
   translation_link: ''
   language: ''
   scopes:
     - national
     - global
+    - source_1
+    - source_2
+    - source_3
+    - source_4
+    - source_5
+    - source_6
   exclude_fields: []
   translated: false
 languages:
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -211,20 +219,46 @@ menu:
     translation_key: menu.faq
     dropdown: []
   - path: /news
-    translation_key: menu.updates
+    translation_key: News & Events
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+progress_status:
+    status_heading: heading goes here
+    status_types:
+      - value: not_available
+        label: status.progress_not_available
+        image: assets/img/progress/not-available.png
+        alt: status.progress_not_available
+      - value: target_achieved
+        label: status.progress_target_achieved
+        image: assets/img/progress/target-achieved.png
+        alt: status.progress_target_achieved
+remote_data_prefix: 'https://sdg-st-helens.github.io/st-helens-data/'
 reporting_status:
   title: status.reporting_status
-  description: status.description
+  description: >-
+    Reporting status provides an overview of how much Sustainable Development
+    Goal (SDG) data St Helens reports.
   disaggregation_tabs: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+  status_types:
+    - value: complete
+      label: status.reported
+      hide_on_goal_pages: false
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
+    - value: notapplicable
+      label: status.not_applicable
+      hide_on_goal_pages: false
+repository_url_data: 'https://github.com/sdg-st-helens/st-helens-data'
+repository_url_site: 'https://github.com/sdg-st-helens/st-helens-site'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -232,7 +266,7 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/_data'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/data'
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false

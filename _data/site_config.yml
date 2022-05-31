@@ -83,9 +83,15 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: Cookies
 frontpage_cards:
+  - title: frontpage.download_all
+    content: ''
+    include: components/download-all-data.html
+    button_label: ''
+    button_link: ''
+    rule_color: ''
   - title: Relevant websites and publications
-    content: >-
-     [2030hub](https://the2030hub.com/)
+    content: >
+      [2030hub](https://the2030hub.com/)
       
       
       Together To Zero
@@ -93,10 +99,6 @@ frontpage_cards:
       
       [St Helens Climate Change 
       Commission](https://www.sthelens.gov.uk/news/2021/march/24/climate-change-commission-to-support-greener-borough/#:~:text=At%20a%20full%20council%20meeting,is%20having%20on%20the%20borough.)
-    include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
   - title: Useful resources
     content: >
       [About Local2030](https://www.local2030.org/about-us.php)
@@ -107,13 +109,6 @@ frontpage_cards:
   - title: Affliated Data Platforms
     content: >- 
       [Liverpool SDG Data Platform](https://liverpool-sdg-data.github.io/)
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-    include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
 frontpage_goals_grid:
   title: St Helens data for Sustainable Development Goal indicators
   description: >-

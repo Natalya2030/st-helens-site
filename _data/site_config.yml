@@ -25,8 +25,8 @@ contrast_type: default
 cookie_consent_form:
   enabled: true
 country:
-  name: Liverpool
-  adjective: Liverpool
+  name: St Helens
+  adjective: St Helens
 create_goals:
   layout: goal-by-target
   previous_next_links: false
@@ -85,28 +85,15 @@ footer_menu:
 frontpage_cards:
   - title: Relevant websites and publications
     content: >-
-      [2030hub](https://the2030hub.com/)
-      [City Plan for Liverpool](https://cityplanliverpool.co.uk/)
-      [City Plan for Liverpool -
-      document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)
+     [2030hub](https://the2030hub.com/)
       
       
-      [UK Voluntary National Review June 2019](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/818212/UKVNR-web-accessible1.pdf)
+      Together To Zero
+      
+      
+      [St Helens Climate Change 
+      Commission](https://www.sthelens.gov.uk/news/2021/march/24/climate-change-commission-to-support-greener-borough/#:~:text=At%20a%20full%20council%20meeting,is%20having%20on%20the%20borough.)
     include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Events
-    content: >
-      3rd Working Group Meeting - 
-      6th April 2022
-    include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Download all data
-    content: ''
-    include: components/download-all-data.html
     button_label: ''
     button_link: ''
     rule_color: ''
@@ -117,41 +104,27 @@ frontpage_cards:
       [Implementing the Sustainable Development
       Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
       [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
-    include: ''
+  - title: Affliated Data Platforms
+    content: >- 
+      [Liverpool SDG Data Platform](https://liverpool-sdg-data.github.io/)
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Previous Event Documentation
-    content: >
-      [2nd March Working Group Meeting Notes](https://drive.google.com/file/d/1DYbb_R1Huqj7dzmIPIFh6ofQnbM4uYL6/view?usp=sharing)
-      
-      
-      [25th January Working Group Meeting Notes](https://drive.google.com/file/d/1up30Ws0N5VfLDjgNslEHaVcx_fmJ2pBv/view?usp=sharing)
-    include: ''
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Affiliated Data Platforms
-    content: >
-      [St Helens SDG Data Platform](https://st-helens-sdg-data.github.io/)
-      
-      
-      [UK National SDG Data Platform](https://sdgdata.gov.uk/)
     include: ''
     button_label: ''
     button_link: ''
     rule_color: ''
 frontpage_goals_grid:
-  title: Liverpool data for Sustainable Development Goal indicators
+  title: St Helens data for Sustainable Development Goal indicators
   description: >-
-    Click on each goal for Liverpool statistics for Sustainable Development Goal
+    Click on each goal for St Helens statistics for Sustainable Development Goal
     global indicators.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
   title: Welcome to Liverpool's SDG Data Platform
   description: >-
-    This is an open data platform for Liverpool to help in achieving the
+    This is an open data platform for St Helens to help in achieving the
     Sustainable Development Goals (SDGs). This platform is constantly developing
     with the support of the local community in the city of Liverpool.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
@@ -159,7 +132,7 @@ goal_image_extension: ''
 goals_page:
   title: general.goals
   description: >-
-    Click on each goal to see Liverpool statistics for Sustainable Development
+    Click on each goal to see St Helens statistics for Sustainable Development
     Goal global indicators.
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
@@ -176,15 +149,15 @@ hide_single_unit: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/indicator-config'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/indicator-config'
   translation_link: ''
 indicator_data_form:
   enabled: true
-  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/data'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/data'
 indicator_metadata_form:
   enabled: true
   dropdowns: []
-  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/meta'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/meta'
   translation_link: ''
   language: ''
   scopes:
@@ -247,9 +220,6 @@ menu:
   - path: /news
     translation_key: News & Events
     dropdown: []
-  - path: /jargon-buster
-    translation_key: Jargon Buster
-    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
@@ -286,8 +256,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/sdg-liverpool/data'
-repository_url_site: 'https://github.com/sdg-liverpool/site'
+repository_url_data: 'https://github.com/sdg-st-helens/st-helens-data'
+repository_url_site: 'https://github.com/sdg-st-helens/st-helens-site'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -295,7 +265,7 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: 'https://github.com/sdg-liverpool/site/tree/develop/_data'
+  repository_link: 'https://github.com/sdg-st-helens/st-helens-data/tree/develop/data'
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false

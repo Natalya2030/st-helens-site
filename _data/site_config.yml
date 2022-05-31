@@ -23,12 +23,12 @@ breadcrumbs:
       label: menu.updates
 contrast_type: default
 cookie_consent_form:
-  enabled: false
+  enabled: true
 country:
-  name: Australia
-  adjective: Australian
+  name: Liverpool
+  adjective: Liverpool
 create_goals:
-  layout: goal-by-target-vertical
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
@@ -67,71 +67,100 @@ disclaimer:
   phase: ''
   message: ''
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: info@the2030hub.com
+  suggestions: info@the2030hub.com
+  functional: info@the2030hub.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  - path: 'https://the2030hub.com/contact/'
+    translation_key: Contact 2030hub
+  - path: 'https://twitter.com/2030hub'
+    translation_key: Twitter
+  - path: 'http://facebook.com/2030hub'
+    translation_key: Facebook
   - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+    translation_key: Cookies
 frontpage_cards:
-  - title: frontpage.download_all
+  - title: Relevant websites and publications
+    content: >-
+      [2030hub](https://the2030hub.com/)
+      [City Plan for Liverpool](https://cityplanliverpool.co.uk/)
+      [City Plan for Liverpool -
+      document](https://cityplanliverpool.co.uk/wp-content/uploads/2020/10/City-Plan-Jan21-update.pdf)
+      
+      
+      [UK Voluntary National Review June 2019](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/818212/UKVNR-web-accessible1.pdf)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Events
+    content: >
+      3rd Working Group Meeting - 
+      6th April 2022
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Download all data
     content: ''
     include: components/download-all-data.html
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Relevant websites and publications
-    content: >
-      [2030hub](https://the2030hub.com/)
-      
-      
-      Together To Zero
-      
-      
-      [St Helens Climate Change 
-      Commission](https://www.sthelens.gov.uk/news/2021/march/24/climate-change-commission-to-support-greener-borough/#:~:text=At%20a%20full%20council%20meeting,is%20having%20on%20the%20borough.)
   - title: Useful resources
     content: >
       [About Local2030](https://www.local2030.org/about-us.php)
-
-
       [The Global Goals](https://www.globalgoals.org/)
-
-
       [Implementing the Sustainable Development
       Goals](https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)
-
-
       [UK data for Sustainable Development Goals](https://sdgdata.gov.uk/)
-  - title: Affliated Data Platforms
-    content: >- 
-      [Liverpool SDG Data Platform](https://liverpool-sdg-data.github.io/)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Previous Event Documentation
+    content: >
+      [2nd March Working Group Meeting Notes](https://drive.google.com/file/d/1DYbb_R1Huqj7dzmIPIFh6ofQnbM4uYL6/view?usp=sharing)
+      
+      
+      [25th January Working Group Meeting Notes](https://drive.google.com/file/d/1up30Ws0N5VfLDjgNslEHaVcx_fmJ2pBv/view?usp=sharing)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
+  - title: Affiliated Data Platforms
+    content: >
+      [St Helens SDG Data Platform](https://st-helens-sdg-data.github.io/)
+      
+      
+      [UK National SDG Data Platform](https://sdgdata.gov.uk/)
+    include: ''
+    button_label: ''
+    button_link: ''
+    rule_color: ''
 frontpage_goals_grid:
-  title: St Helens data for Sustainable Development Goal indicators 
+  title: Liverpool data for Sustainable Development Goal indicators
   description: >-
-    Click on each goal for our Sustainable Development Goal global indicator
-    data.
+    Click on each goal for Liverpool statistics for Sustainable Development Goal
+    global indicators.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
-   title: Welcome to St Helens SDG Data Platform.
-   description: This is an open data platform for St Helens to help in achieving the
+  title: Welcome to Liverpool's SDG Data Platform
+  description: >-
+    This is an open data platform for Liverpool to help in achieving the
     Sustainable Development Goals (SDGs). This platform is constantly developing
-    with the support of the local community in St Helens.
+    with the support of the local community in the city of Liverpool.
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
-  description: goal.description
+  description: >-
+    Click on each goal to see Liverpool statistics for Sustainable Development
+    Goal global indicators.
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
@@ -147,25 +176,30 @@ hide_single_unit: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/indicator-config'
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/indicator-config'
   translation_link: ''
 indicator_data_form:
   enabled: true
-  repository_link: '/tree/develop/data'
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/data'
 indicator_metadata_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/meta'
+  repository_link: 'https://github.com/sdg-liverpool/data/tree/develop/meta'
   translation_link: ''
   language: ''
   scopes:
     - national
     - global
+    - source_1
+    - source_2
+    - source_3
+    - source_4
+    - source_5
+    - source_6
   exclude_fields: []
   translated: false
 languages:
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -211,20 +245,49 @@ menu:
     translation_key: menu.faq
     dropdown: []
   - path: /news
-    translation_key: menu.updates
+    translation_key: News & Events
+    dropdown: []
+  - path: /jargon-buster
+    translation_key: Jargon Buster
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+progress_status:
+    status_heading: heading goes here
+    status_types:
+      - value: not_available
+        label: status.progress_not_available
+        image: assets/img/progress/not-available.png
+        alt: status.progress_not_available
+      - value: target_achieved
+        label: status.progress_target_achieved
+        image: assets/img/progress/target-achieved.png
+        alt: status.progress_target_achieved
+remote_data_prefix: 'https://sdg-liverpool.github.io/data/'
 reporting_status:
   title: status.reporting_status
-  description: status.description
+  description: >-
+    Reporting status provides an overview of how much Sustainable Development
+    Goal (SDG) data Liverpool reports.
   disaggregation_tabs: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+  status_types:
+    - value: complete
+      label: status.reported
+      hide_on_goal_pages: false
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
+    - value: notapplicable
+      label: status.not_applicable
+      hide_on_goal_pages: false
+repository_url_data: 'https://github.com/sdg-liverpool/data'
+repository_url_site: 'https://github.com/sdg-liverpool/site'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -232,7 +295,7 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/_data'
+  repository_link: 'https://github.com/sdg-liverpool/site/tree/develop/_data'
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false

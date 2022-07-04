@@ -1003,7 +1003,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
@@ -1011,7 +1011,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1019,7 +1019,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/9-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-2",
@@ -1043,7 +1043,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
@@ -1075,7 +1075,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

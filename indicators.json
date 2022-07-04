@@ -795,7 +795,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
@@ -803,7 +803,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
@@ -811,7 +811,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
@@ -835,7 +835,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/7-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

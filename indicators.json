@@ -1619,7 +1619,7 @@
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
@@ -1975,11 +1975,11 @@
         },
         {
           "id": "17-6-1",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants (any speed)",
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/17-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-7-1",
@@ -2103,11 +2103,11 @@
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years and (b) have achieved 100% birth registration and 80% death registration",
           "description": "",
           "keywords": "",
           "href": "/st-helens-site/17-19-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   }]

@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/st-helens-site/assets/css/style.css?v=20220707142155">
+        <link rel="stylesheet" href="/st-helens-site/assets/css/style.css?v=20220708085049">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1423,7 +1423,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "People in relative low income – living in households with income below 60% of the median in that year. People in absolute low income – living in households with income below 60% of (inflation-adjusted) median income in some base year, usually 2010/11. Before Housing Costs figures count the number of individuals in poverty based on their household income before deducting housing costs; After Housing Costs figures are based on household income after deducting housing costs.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "*People in relative low income* – living in households with income below 60% of the median in that year.\n\n*People in absolute low income* – living in households with income below 60% of (inflation-adjusted) median income in some base year, usually 2010/11.\n\nBefore Housing Costs figures count the number of individuals in poverty based on their household income before deducting housing costs; After Housing Costs figures are based on household income after deducting housing costs.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1773,7 +1773,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-st-helens/st-helens-data/commit/69085f967633425c68ad24bf23cac9715fa43bc9");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/sdg-st-helens/st-helens-data/commit/24e8a5bc53faa9ed1fae13e7d1a45d9a8cf74114");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1787,7 +1787,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-06-27: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-07-08: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -3025,12 +3025,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/st-helens-site/assets/js/sdg.js?v=20220707142155'></script>
+<script src='/st-helens-site/assets/js/sdg.js?v=20220708085049'></script>
 
 
     
     
-    <script src="/st-helens-site/assets/js/custom.js?v=20220707142155"></script><script>
+    <script src="/st-helens-site/assets/js/custom.js?v=20220708085049"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

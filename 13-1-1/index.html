@@ -140,7 +140,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/st-helens-site/assets/css/style.css?v=20220708152220">
+        <link rel="stylesheet" href="/st-helens-site/assets/css/style.css?v=20220711084920">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -784,7 +784,7 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics</p>
+    <p>Source: Office for National Statistics (Nomis)</p>
     
     
     <p>Geographical Area: St Helens</p>
@@ -1414,13 +1414,16 @@ data-event-label="Change to Sources tab"
           
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Data reporter </th>
+        <th scope="row">Organisation </th>
         <td>
           
-            <p>Office For National Statistics</p>
+            <p>Office for National Statistics</p>
 
           
         </td>
@@ -1445,7 +1448,20 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Contact email </th>
+        <td>
           
+            <p>health.data@ons.gov.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1454,7 +1470,20 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measure </th>
+        <td>
           
+            <p>Deaths per 100,000 population</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1463,22 +1492,20 @@ data-event-label="Change to Sources tab"
           
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p><a href="https://www.nomisweb.co.uk/query/construct/summary.asp?reset=yes&amp;mode=construct&amp;dataset=161&amp;version=0&amp;anal=1&amp;initsel=">Mortality statistics - underlying cause, sex and age</a></p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-      
-        
-          
-      
-        
-          
+  
       
         
           
@@ -1496,10 +1523,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comment and limitations </th>
+        <th scope="row">Data compilers </th>
         <td>
           
-            <p>Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
+            <p>Office for National Statistics</p>
 
           
         </td>
@@ -1507,6 +1534,18 @@ data-event-label="Change to Sources tab"
         
       
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
       
         
           
@@ -1579,8 +1618,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-st-helens/st-helens-data/commit/c077700d79c94e897b6e66733e205b37964c3a97" target="_blank">
-                2022-07-08: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/sdg-st-helens/st-helens-data/commit/64ab1f6d1f382f55989baf52686224e6fb2abd74" target="_blank">
+                2022-07-11: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -2263,12 +2302,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/st-helens-site/assets/js/sdg.js?v=20220708152220'></script>
+<script src='/st-helens-site/assets/js/sdg.js?v=20220711084920'></script>
 
 
     
     
-    <script src="/st-helens-site/assets/js/custom.js?v=20220708152220"></script><script>
+    <script src="/st-helens-site/assets/js/custom.js?v=20220711084920"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
